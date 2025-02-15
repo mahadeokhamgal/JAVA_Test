@@ -15,6 +15,7 @@ enum Status implements Displayable {
 public class EnumInterfaceExample {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(Status.values()));
+        System.out.println(Status.FAILURE.ordinal());
         Status.SUCCESS.show();
     }
 }
